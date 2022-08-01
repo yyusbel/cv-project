@@ -188,7 +188,7 @@ class App extends Component {
         [addKey]: false,
       });
     });
-    console.log(this.state);
+    return console.log(this.state);
   };
 
   updateInputVal = (e, category, specificState, id) => {
